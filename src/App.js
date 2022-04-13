@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import image from '../assets/exercise';
 
 // The content below is only a placeholder and can be replaced
 export default function App() {
@@ -14,7 +15,7 @@ export default function App() {
           width: '80%',
         }}
       >
-        <img scr="assets/exercise.png" />
+        <img src={image} alt="Anteprima esercizio" />
       </div>
       <p>
         Osservando l'immagine è possibile individuare una lista di elementi che
@@ -22,15 +23,15 @@ export default function App() {
       </p>
       <ol>
         <li>
-          un quadrato a sinistra rosso con bordi arrotondati (dimensione 50x50
+          Un quadrato a sinistra rosso con bordi arrotondati (dimensione 50x50
           px)
         </li>
-        <li>il quadrato ha una distanza dal testo fissa di 1rem</li>
-        <li>un titolo in grassetto (2rem)</li>
-        <li>una descrizione (1rem)</li>
-        <li>ogni riga è separata da una linea</li>
+        <li>Il quadrato ha una distanza dal testo fissa di 1rem</li>
+        <li>Un titolo in grassetto (2rem)</li>
+        <li>Una descrizione (1rem)</li>
+        <li>Ogni riga è separata da una linea</li>
         <li>
-          la lista si adatta in larghezza al 100% (per cui ogni volta che viene
+          La lista si adatta in larghezza al 100% (per cui ogni volta che viene
           allargato lo schermo, il quadrato mantiene sempre la stessa distanza
           dal testo, cioè 1rem)
         </li>
@@ -41,7 +42,7 @@ export default function App() {
       </p>
       <p>
         E' possibile usare qualsiasi libreria per risolvere l'attività,
-        l'importante sarà sicuramente motivare le scelte intaprese.
+        l'importante sarà sicuramente motivare le scelte intraprese.
       </p>
       <p>
         Il candidato può scaricare il progetto sul suo personal e risolverlo in
